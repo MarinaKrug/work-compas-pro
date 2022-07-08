@@ -5,7 +5,7 @@
 # понятного сообщения об отсутствии файла. Переместите один из файлов в другое место
 # файловой системы; убедитесь в том, что код блока except выполняется как положено.
 
-with open("../cats.txt", 'w') as f, open('dogs.txt', 'w') as dog:
+with open("../../cats.txt", 'w') as f, open('dogs.txt', 'w') as dog:
     f.write('Murka\tMurzik\tVaska')
     dog.write('Rex\tTuzik\tKnopka')
 

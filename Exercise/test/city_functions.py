@@ -5,7 +5,7 @@
 # импортировать unittest и тестируемую функцию). Напишите метод test_city_country()
 # для проверки того, что вызов функции с такими значениями, как 'santiago' и 'chile', дает
 # правильную строку. Запустите test_cities.py и убедитесь в том, что тест test_city_country()
-# проходит успешно.
+# проходит успешно..
 
 
 
@@ -16,7 +16,6 @@ def get_city_country(country, city, population=''):
     else:
         info = f"{city}, {country}"
     return info.title()
-
 
 
 
